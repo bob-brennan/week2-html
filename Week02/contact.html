@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contact Info</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">WingFoiling</a>
+            <a href="foils.html">Foils</a>
+            <a href="boards.html">Boards</a>
+            <a href="wings.html">Wings</a>
+            <a href="contact.html">Contact</a>
+            <div class="animation start-contact"></div>
+        </nav>
+    </header>
+    
+    <div>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div>
+        <h2>Interested?  Fill this out:</h2>
+        <form action="someFile.php">
+            <label for="name">Full Name:</label><input type="text" name="name" id="name" placeholder="Fred Flintstone"><br>
+            <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="fred@stoneages.com"><br>
+            <label>Interests:</label><br>
+            <input type="checkbox" name="Boards" id="Boards" value="Boards"><label for="Boards">Boards</label><br>
+            <input type="checkbox" name="Foils" id="Foils" value="Foils"><label for="Foils">Foils</label><br>
+            <input type="checkbox" name="Wings" id="Wings" value="Wings"><label for="Wings">Wings</label><br>
+ 
+            <button type="button" onclick="buttonClicked()">Click Button</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Sample Manufacturer Websites</h2>
+        <p class="bigfont">Slingshot</p>
+        <a href="https://slingshotsports.com/collections/wings">
+            <img src="images/SlingShot.jpg" class="picsize"/> 
+        </a>
+
+        <p class="bigfont">Armstrong</p>
+        <a href="https://www.armstrongfoils.com/">
+            <img src="images/Armstrong.jpg" class="picsize"/> 
+        </a>
+
+        <p class="bigfont">F-One</p>
+        <a href="https://www.f-one.world/app/uploads/2020/12/WING-SURF-HEADER-V2.jpg">
+            <img src="https://www.f-one.world/app/uploads/2020/12/WING-SURF-HEADER-V2-300x150.jpg" class="picsize"/> 
+        </a>
+
+        <p class="bigfont">Gong</p>
+        <a href="https://www.gong-galaxy.com/en/">
+            <img src="images/Gong-Galaxy.jpg" class="picsize"/> 
+        </a>                        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
